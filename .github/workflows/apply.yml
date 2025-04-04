@@ -1,4 +1,4 @@
-name: policies_attachement
+name: vpc
 
 on:
   workflow_dispatch:
