@@ -4,5 +4,5 @@ resource "aws_instance" "web_1" {
   subnet_id     = aws_subnet.public_subnet_1.id
  
 
-  tags = { Name = "WebServer1" }
+  tags = { Name = "server1" }
 }
