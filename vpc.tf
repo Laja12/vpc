@@ -3,7 +3,7 @@ resource "aws_vpc" "main_vpc" {
   cidr_block = var.vpc_cidr
 
   tags = {
-    Name = "vpc"
+    Name = "vpc1"
   }
 }
 
@@ -16,7 +16,7 @@ resource "aws_subnet" "public_subnet_1" {
   
 
   tags = {
-    Name = "PublicSubnet-1"
+    Name = "PublicSubnet-1a"
   }
 }
 
@@ -28,7 +28,7 @@ resource "aws_subnet" "public_subnet_2" {
   
 
   tags = {
-    Name = "PublicSubnet-2"
+    Name = "PublicSubnet-1b"
   }
 }
 
